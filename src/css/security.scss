@@ -1,0 +1,48 @@
+.security{
+  background-color: #191919;
+  position: relative;
+  height: 899px;
+  overflow: hidden;
+  &__{
+    &container{
+      position: relative;
+      width: 100%;
+      max-width: 1230px;
+      margin: 0 auto;
+      padding: 0 15px;
+
+    }
+    &inner{
+      position: absolute;
+      width: 500px;
+      right: 0;
+      top: 302px;
+    }
+
+    &title{
+      color: #FF573D;
+      margin-bottom: 13px;
+      }
+
+    &subtitle{
+      @include text(400,40px,48px,#fff);
+      margin-bottom: 143px;
+    }
+    &list{
+      &-item{
+        @include text(400,20px,28px,#fff);
+        margin-bottom: 10px;
+      }
+    }
+
+    &background{
+      position: absolute;
+      left: -106px;
+      top: 10px;
+    }
+
+
+
+
+  }
+}

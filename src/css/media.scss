@@ -1,0 +1,700 @@
+@media (min-width: 2562px) {
+  .container {
+    position: relative;
+  }
+}
+@media (min-width: 1160px) {
+  .first-screen__label-input{
+    padding: 0 258px 0 30px;
+  }
+}
+@media (max-width: 1300px) {
+  .collab{
+    &__text{
+      margin-bottom: 45vw;
+    }
+    &__display{
+      bottom: -90px;
+    }
+  }
+
+  .creators{
+    padding: 160px 0 350px;
+  }
+}
+
+@media (max-width: 1099px) {
+  .chart__desk{
+    bottom: -100px;
+  }
+}
+
+  @media (max-width: 1059px) {
+    .chart {
+    padding: 153px 0 40vw;
+
+    &__desk {
+      bottom: -153px;
+    }
+  }
+    .creators{
+      padding: 130px 0 315px;
+    }
+
+
+  .setUp {
+    &__ {
+      &card {
+        position: relative;
+        padding-bottom: 299px;
+
+        &-btn {
+          margin: 0;
+        }
+
+        &-text {
+          position: absolute;
+          left: 50%;
+          bottom: 50%;
+          transform: translate(-50%, 225%);
+          width: 80%;
+        }
+
+        &-channels {
+          &-title {
+            display: none;
+          }
+
+          &-text {
+            text-align-last: center;
+            width: 100%;
+          }
+
+          &_row {
+            flex-direction: column;
+            text-align-last: center;
+          }
+
+        }
+      }
+
+    }
+  }
+  .split__subtitle::before {
+    height: 82%;
+    right: -100px;
+  }
+  .split__subtitle::after {
+    height: 82%;
+    left: -100px;
+  }
+
+
+}
+
+@media (max-width: 1000px) {
+  .container {
+    position: relative;
+  }
+  .split__subtitle::before {
+    height: 72%;
+    right: -80px;
+  }
+  .split__subtitle::after {
+    height: 72%;
+    left: -80px;
+  }
+  .chart__desk{
+    margin: 30px;
+  }
+}
+
+@media (max-width: 840px) {
+  .big-title {
+    font-size: 55px;
+  }
+  .split {
+    padding: 120px 0;
+
+    &__subtitle {
+      font-size: 55px;
+      margin-bottom: 120px;
+
+      &::before {
+        height: 72%;
+        right: -50px;
+      }
+
+      &::after {
+        height: 72%;
+        left: -50px;
+      }
+    }
+  }
+
+  .chart__desk{
+    margin: 33px;
+  }
+
+}
+
+@media (max-width: 775px) {
+  .trusted__slider-img {
+    height: 50vw;
+  }
+  .setUp__card-text {
+    transform: translate(-50%, 175%);
+  }
+  .payment__card {
+    height: 100vw;
+    max-height: 600px;
+    max-width: 70%;
+
+    &-img {
+      max-width: 60%;
+    }
+
+    &-text {
+      margin-bottom: 20px;
+    }
+  }
+  .chart__carousel-card {
+    width: 55%;
+  }
+  .chart__desk{
+    margin: 53px;
+  }
+  .creators{
+    padding: 130px 0 270px;
+    &__input{
+      margin-bottom: 100px;
+    }
+    &__title{
+      margin-bottom: 10px;
+    }
+    &__subtitle{
+      margin-bottom: 15px;
+    }
+  }
+
+
+
+}
+
+@media (max-width: 720px) {
+  .organized {
+
+    &__add-platforms {
+      padding: 40px 20px;
+
+      &-info {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        text-align-last: center;
+
+        &-title {
+          margin-bottom: 10px;
+        }
+      }
+
+      &-image {
+        margin: 0;
+        padding: 0;
+      }
+    }
+
+    .organized__advance {
+      flex-wrap: wrap;
+
+      &-text:not(last-child) {
+        margin-bottom: 15px;
+      }
+    }
+
+    .organized__revenue {
+      margin-top: 20px;
+    }
+
+  }
+  //.organized__add-platforms-image
+  .big-title {
+    font-size: 40px;
+    line-height: 55px;
+  }
+  .circle-title {
+    margin-bottom: 20px;
+  }
+  .chart {
+    &__desk {
+      bottom: -143px;
+    }
+  }
+
+  .trusted {
+    padding: 160px 0 130px;
+
+    &__title {
+      margin-bottom: 60px;
+    }
+
+    &__slider {
+      margin-bottom: 100px;
+    }
+
+    .slick-next, .slick-prev {
+      bottom: -70px;
+    }
+
+    &__for {
+      margin-bottom: 20px;
+
+      br {
+        display: none;
+      }
+    }
+  }
+  .welcome {
+    padding: 140px 0 167px;
+  }
+
+  .organized {
+    padding: 80px 0 80px;
+
+    &__link {
+      margin-bottom: 20px;
+    }
+
+    &__subtitle {
+      margin-bottom: 60px;
+    }
+  }
+
+  .payment {
+    padding: 90px 0 190px;
+
+    &__subtitle {
+      margin-bottom: 60px;
+    }
+
+    &__cardbox {
+      row-gap: 30px;
+    }
+  }
+  .split {
+    padding: 90px 0;
+
+    &__platforms-list {
+      row-gap: 15px;
+    }
+
+    &__subtitle {
+      font-size: 40px;
+      line-height: 55px;
+      margin-bottom: 60px;
+
+      &__text {
+        margin-bottom: 50px;
+      }
+
+
+      &::before {
+        max-width: 135px;
+        bottom: -12px;
+        height: 53%;
+        right: 0;
+      }
+
+      &::after {
+        max-width: 135px;
+        bottom: -12px;
+        height: 53%;
+        left: 0;
+      }
+    }
+    &__display{
+      top: 500px;
+    }
+
+  }
+
+  .collab{
+    padding: 110px 0 0;
+    &__subtitle{
+      margin-bottom: 45px;
+    }
+    &__display{
+      bottom: -70px;
+    }
+  }
+
+  .setUp{
+    padding: 110px 0 130px;
+    &__title{
+      margin: 0 15vw 141px;
+    }
+  }
+
+
+
+
+}
+
+@media (max-width: 666px) {
+  .setUp__title{
+    font-size: 34px;
+    line-height: 43px;
+  }
+  .minor__subtitle{
+    font-size: 38px;
+    line-height: 36px;
+  }
+  .minor-text{
+  }
+  .imagination__inner{
+    padding: 120px 0;
+  }
+
+}
+
+
+@media (max-width: 640px) {
+  .subtitle-change {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .first-screen__text{
+    margin: 15px 0 25px;
+  }
+  .trusted__slider-img {
+    height: 251px;
+  }
+
+  .setUp__card {
+    padding-right: 30px;
+    &-channels {
+      display: none;
+    }
+    &-text {
+      font-size: 20px;
+      transform: translate(-50%, 195%);
+      line-height: 28px;
+    }
+
+    &-btn {
+      position: absolute;
+      bottom: 15px;
+      left: 10px;
+    }
+
+    .swiper-slide img {
+      width: 60%;
+      margin: 0 auto;
+    }
+  }
+
+  .payment__right-title {
+    display: none;
+  }
+
+  .comingBurger {
+    @include text(400, 24px, 36px, #fff);
+    display: inline-block;
+    height: 40px;
+    z-index: 99;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    bottom: -100px;
+    left: 45px;
+
+    &.active {
+      .fa-angle-down {
+        transform: rotate(90deg);
+      }
+    }
+
+    .fa-angle-down {
+      color: white;
+      transform: rotate(270deg);
+      transition: .3s;
+
+      &.active {
+        transform: rotate(90deg);
+        transition: .3s;
+      }
+    }
+  }
+  .payment__left {
+    width: 100%;
+  }
+  .payment__right {
+    box-shadow: -4px -2px 15px black;
+    position: absolute;
+    padding: 10px;
+    width: 280px;
+    right: 15px;
+    transform: translate(-250%, -90px);
+    background: rgba(25, 24, 25, 1);
+    transition: .7s all;
+
+    &.active {
+      transform: translate(6%, -90px);
+    }
+  }
+  .chart{
+    padding-top: 120px;
+    &__desk{
+      bottom: -103px;
+      margin: 33px;
+    }
+  }
+
+  .security{
+    height: 700px;
+    &__background{
+      opacity: 0.5;
+    }
+    &__list{
+      line-height: 20;
+    }
+    &__inner{
+      max-width: 70vw;
+      top: 50%;
+      transform: translateY(50%);
+    }
+    &__subtitle{
+      margin-bottom: 70px;
+    }
+  }
+
+}
+@media (max-width: 590px) {
+.minor-text{
+  font-size: 18px;
+  br{
+    display: none;
+  }
+}
+}
+
+@media (max-width: 550px) {
+  .setUp__card {
+    &-text {
+      transform: translate(-50%, 155%);
+    }
+  }
+  .payment__card {
+    padding: 30px 20px 0;
+  }
+  .big-title {
+    font-size: 35px;
+    line-height: 45px;
+  }
+  .split {
+    padding: 90px 0;
+
+    &__platforms-list {
+      row-gap: 15px;
+    }
+
+    &__subtitle {
+      font-size: 35px;
+      line-height: 45px;
+      margin-bottom: 100px;
+    }
+
+    &__text {
+      margin-bottom: 50px;
+      font-size: 18px;
+    }
+  }
+  .collab{
+    padding: 80px 0 0;
+    &__subtitle{
+      margin-bottom: 40px;
+    }
+    &__display{
+      bottom: -50px;
+    }
+  }
+
+  .setUp__title{
+    font-size: 27px;
+    line-height: 38px;
+  }
+  .chart__desk{
+    margin: 53px;
+    border-radius: 10px;
+  }
+  .security{
+    &__inner{
+      max-width: 85vw;
+    }
+  }
+  .organized__revenue{
+    &-count{
+      width: 60%;
+    }
+    &-count-title{
+      font-size: 12px;
+      text-align: center;
+    }
+    &-title{
+      font-size: 14px;
+      text-align: center;
+    }
+    &-platforms{
+      column-gap: 8px;
+      &-date{}
+      &-icon{
+        width: 30px;
+      }
+    }
+  }
+
+}
+
+@media (max-width: 470px) {
+  .header__inner{
+    margin-bottom: 110px;
+  }
+  .payment__card {
+    padding: 20px 20px 0;
+
+    &-text {
+      line-height: 21px;
+    }
+
+    &-img-chat {
+      bottom: 90px;
+    }
+
+    &-img-autopilot {
+      bottom: 30px;
+    }
+  }
+  .organized__revenue{
+    padding: 10px;
+  }
+
+  .minor-title {
+    line-height: 24px;
+  }
+  .setUp__card {
+    height: 490px;
+
+
+    &-text {
+      transform: translate(-50%, 145%);
+      width: 85%;
+      font-size: 18px;
+      line-height: 24px;
+      margin-bottom: 70px;
+    }
+
+    .swiper-slide img{
+      min-width: 140px;
+      height: 180px;
+      margin: 0 auto;
+    }
+  }
+
+  .trusted__slider-img {
+    height: 50vw;
+  }
+  .setUp__title{
+    font-size: 20px;
+    line-height: 36px;
+    margin: 0 10vw 81px;
+  }
+  .creators{
+    padding: 90px 0 230px;
+  }
+}
+
+@media (max-width: 423px) {
+  .minor__subtitle{
+    font-size: 28px;
+    line-height: 28px;
+  }
+  .chart__desk{
+    margin: 63px;
+  }
+  .setUp{
+    padding: 90px 0 110px;
+    &__title{
+      margin-bottom: 60px;
+      line-height: 28px;
+    }
+  }
+  .split{
+    padding: 80px 0;
+  }
+
+  .creators__text{
+    margin-bottom: 30px;
+  }
+  .security{
+    height: 600px;
+    &__subtitle{
+      margin-bottom: 50px;
+    }
+  }
+  .imagination__inner{
+    padding: 100px 0;
+  }
+
+}
+
+@media (max-width: 375px) {
+  .setUp{
+    padding: 70px 0 90px;
+    &__card-text{
+      transform: translate(-50%, 115%);
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 24px;
+    }
+  }
+  .chart__desk{
+    margin: 73px;
+  }
+  .big-title{
+    font-size: 30px;
+    line-height: 38px;
+  }
+  .minor-text{
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .organized__revenue{
+    &-platforms-icon{
+      width: 20px;
+    }
+    &-count{
+      justify-content: space-around;
+      &-ttitle{
+
+      }
+      &-num{
+        font-size: 12px;
+      }
+    }
+  }
+
+}
+
+@media (max-width: 340px) {
+  .welcome{
+    padding: 80px 0 120px;
+  }
+  .organized__revenue-row{
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+  }
+
+
+
+}
+

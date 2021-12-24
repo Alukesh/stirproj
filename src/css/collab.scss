@@ -1,0 +1,55 @@
+.collab {
+  padding: 140px 0 0;
+  background-color: #2B2A35;
+  position: relative;
+  overflow: hidden;
+  &__ {
+    &inner {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    &btn {
+      width: 146px;
+      height: 44px;
+      border-radius: 64px;
+      border: none;
+      margin-bottom: 31px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      column-gap: 10px;
+      background-color: #000;
+      &-text {
+        @include text(700, 14px, 20px, #fff);
+      }
+    }
+
+    &title{
+      color: $green;
+      margin-bottom: 8px;
+    }
+    &subtitle{
+      @include text(700,64px,68px,#fff);
+      line-height: 68px;
+      max-width: 750px;
+      text-align: center;
+      margin-bottom: 70px;
+    }
+    &text{
+      color: #ffffff90;
+      margin-bottom: 603px;
+    }
+    &display{
+      position: absolute;
+      max-width: 90%;
+      bottom: -140px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+
+  }
+}

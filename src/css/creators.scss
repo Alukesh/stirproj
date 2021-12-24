@@ -1,0 +1,94 @@
+.creators{
+  padding: 180px 0 400px;
+  color: white;
+  background-color: #191919;
+  &__{
+    &inner{}
+
+    &title{
+      @include text(700,12px,12px,#fff);
+      margin-bottom: 30px;
+      border: 1px solid #6EE4B5;
+      padding: 8px 13px;
+      display: inline-block;
+      border-radius: 57px;
+    }
+    &subtitle{
+      @include text(700,64px,68px,#fff);
+      margin-bottom: 45px;
+    }
+    &text{
+      @include text(400,20px,28px,#fff);
+      margin-bottom: 53px;
+    }
+    &input{
+      @include text(400,20px,28px,#fff);
+      padding: 10px 30px;
+      width: 70%;
+      max-width: 360px;
+      cursor: pointer;
+      text-align-last: center;
+      background-color: transparent;
+      border: 1px solid #FFFFFF;
+      border-radius: 13px;
+      outline: none;
+      color: white;
+      margin-bottom: 170px;
+      transition: .3s;
+      &:hover{
+        border: 1px solid #9f01ea;
+        transition: .3s;
+      }
+    }
+
+    &cards{
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      padding: 0 20px;
+      column-gap: 40px;
+      row-gap: 30px;
+      max-width: 1400px;
+      margin: 0 auto;
+      flex-wrap: wrap;
+
+    }
+    &card{
+      width: 90%;
+      max-width: 410px !important;
+      height: 100vw;
+      max-height: 560px;
+      background-color: #f00;
+      padding: 38px 24px;
+      &-box{
+        border: 1px solid white;
+        height: 100%;
+        width: 100%;
+        max-width: 350px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      &-text{
+        font-size: 64px;
+        text-align-last: center;
+      }
+
+      &1{
+        background: url("../img/11creators/01.png") center/cover no-repeat;
+      }
+      &2{
+        background: url("../img/11creators/02.png") center/cover no-repeat;
+      }
+      &3{
+        background: url("../img/11creators/03.png") center/cover no-repeat;
+      }
+    }
+
+
+
+
+
+
+  }
+}

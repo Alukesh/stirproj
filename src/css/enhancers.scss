@@ -1,0 +1,11 @@
+@mixin text($fw,$fz,$lh,$cr){
+  font-weight: $fw;
+  font-size: $fz;
+  line-height: $lh;
+  color: $cr;
+}
+$green: #6EE4B5;
+$popupCr:#3498db;
+$boxShadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+
+

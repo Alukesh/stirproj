@@ -1,0 +1,23 @@
+.welcome{
+  padding: 200px 0 247px;
+  display: flex;
+  justify-content: center;
+  text-align-last: center;
+  &__title{
+    @include text(400,20px,28px,#FF573D);
+    margin-bottom: 15px;
+    transition: all .5s;
+    &:hover{
+      text-shadow: 2px 5px 3px black;
+      transition: all .3s;
+    }
+  }
+  &__subtitle{
+    @include text(700,40px,52px,#191919);
+    max-width: 819px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+  }
+
+}

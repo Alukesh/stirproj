@@ -1,0 +1,49 @@
+.first-screen{
+  &__{
+    &title{
+      text-align: center;
+      @include text(400,64px,68px,#191919);
+    }
+    &text{
+      text-align: center;
+      @include text(400,20px,28px,#191919);
+      margin: 35px 0;
+    }
+
+    &label{
+      justify-content: center;
+      display: inline-block;
+      position: relative;
+      &-form{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        max-width: 476px;
+        margin: 0 auto;
+
+      }
+      &-input{
+        padding: 0 25vw 0 30px;
+        height: 56px;
+        border-radius: 20px;
+        border: 1px solid #7352FF;
+        outline: none;
+        @include text(400,12px,14px,#000);
+      }
+      &-btn{
+        position: absolute;
+        right: 0;
+        width: 35%;
+        max-width: 149px;
+        height: 56px;
+        border-radius: 20px;
+        background-color: #7352FF;
+        border: none;
+        @include text(400,12px,14px,#fff);
+        cursor: pointer;
+      }
+      //transform: translateX(-100%);
+    }
+
+  }
+}

@@ -1,0 +1,66 @@
+.imagination{
+  overflow: hidden;
+  &__{
+    &inner{
+      text-align: center;
+      padding: 163px 0;
+    }
+
+    &title{
+      color: #7352FF;
+      margin-bottom: 16px;
+      display: inline-block;
+      transition: .4s;
+      &:hover{
+        text-shadow: 3px 8px 12px red;
+        font-size: 20px;
+        position: relative;
+        bottom: 3px;
+        padding-bottom: 3px;
+        transition: .4s;
+      }
+    }
+    &subtitle{
+      margin-bottom: 24px;
+      @include text(700,64px,68px,#000);
+    }
+
+    &blocks{
+      display: flex;
+      flex-wrap: wrap;
+      column-gap: 10px;
+      text-align-last: center;
+    }
+    &block{
+      display: flex;
+      margin: 10px auto;
+      max-width: 274px;
+      padding: 25px 38px 20px;
+      border: 1px solid #EDEDED;
+      border-radius: 10px;
+      box-shadow: 1px 2px 6px 3px rgba(0, 0, 0, .1);
+      text-align-last: center;
+
+      &-inner{
+
+        margin-bottom: auto;
+      }
+      &-icon{
+        height: 40px;
+        margin-bottom: 15px;
+      }
+      &-title{
+        @include text(400,24px,36px,#000);
+        margin-bottom: 8px;
+      }
+
+      &-text{
+        @include text(400,16px,24px,#616A7E);
+      }
+    }
+
+
+
+
+  }
+}

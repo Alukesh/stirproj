@@ -1,0 +1,109 @@
+.chart{
+  padding: 253px 0 495px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__carousel{
+    padding: 30px 22px;
+    .swiper-slide{
+      height: 125%;
+    }
+    .swiperc{
+      width: 130px;
+    }
+
+    &-card{
+      cursor: grab;
+      position: relative;
+      width: 100%;
+      &:active{
+        cursor: grabbing;
+      }
+      &_name{
+        padding: 0 5px 13px;
+        margin-bottom: 6px;
+        border-bottom: 1px solid #F7F2E4;
+      }
+      &_platform{
+        font-size: 10px;
+        line-height: 10px;
+        text-align-last: center;
+      }
+      &_info{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 12px;
+        color: black;
+        position: absolute;
+        padding: 8px 16px 12px 12px;
+        background-color: #fff;
+        border-radius: 4px;
+        box-shadow: 0 4px 21px #00000020;
+        &2{
+          top: 0;
+          transform: translate(-35%,-35%);
+        }
+        &3{
+          right: 0;
+          bottom: 50px;
+          transform: translateX(50%);
+        }
+        &4{
+          left: 0;
+          top: 70px;
+          transform: translateX(-50%);
+        }
+      }
+      &_platicon{
+        position: absolute;
+        padding: 10px;
+        background-color: #fff;
+        box-shadow: 0 4px 21px #00000020;
+        border-radius: 4px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        img{width: 28px;
+          transition: all .3s;
+          &:hover{
+            transform: scale(1.2);
+            border: 4px solid white;
+            border-radius: 5px;
+          }
+        }
+        &_inst:hover{
+          background-color: #C13584;
+        }
+        &_yout:hover{
+          background-color: #000;
+        }
+        &_twitt:hover{
+          background-color: #1DA1F2;
+        }
+
+
+        &2{
+          right: 0;
+          bottom: 50px;
+          transform: translateX(50%);
+        }
+        &3{
+          left: 0;
+          top: 55px;
+          transform: translateX(-50%);
+        }
+      }
+    }
+  }
+  &__desk{
+    border-radius: 15px;
+    width: 90%;
+    max-width: 1039px;
+    position: absolute;
+    bottom: -119px;
+    z-index: 5;
+    transition: 5s;
+  }
+}

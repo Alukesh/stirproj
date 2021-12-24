@@ -1,0 +1,127 @@
+.setUp {
+  padding: 207px 0 179px;
+  .swiper-slide img{
+    width: 50%;
+  }
+
+  &__ {
+    &inner {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    &title {
+      @include text(700, 40px, 48px, #000);
+      text-align: center;
+      max-width: 790px;
+      margin: 0 15vw 212px;
+    }
+
+    &carousel {
+    }
+
+    &card {
+      width: 60%;
+      max-width: 1039px;
+      max-height: 646px;
+      display: flex;
+      margin: 0 auto;
+      padding: 50px 91px 50px 30px;
+      border-radius: 8px;
+      &1{
+        background-color: #F7F2E4;
+      }
+      &2{
+        background-color: #F6C627;
+      }
+
+      &-starter {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: auto;
+        row-gap: 16px;
+        @include text(700, 14px, 14px, #000);
+
+        &_identity {
+          writing-mode: vertical-rl;
+        }
+      }
+
+      &-image {
+        width: 100%;
+        max-width: 450px;
+        max-height: 520px;
+        margin: 0 40px auto 30px;
+        border-radius: 20px;
+      }
+
+      &-btn {
+        width: 155px;
+        height: 28px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 64px;
+        margin-bottom: 31px;
+        border: 1px solid #6EE4B5;
+        background-color: transparent;
+
+        &-text {
+          @include text(700, 12px, 12px, #000);
+
+        }
+      }
+
+      &-text {
+        margin-bottom: 90px;
+        @include text(700, 24px, 36px, #000);
+        max-width: 492px
+      }
+
+      &-channels {
+        display: flex;
+        flex-direction: column;
+        &-right{
+          display: flex;
+          column-gap: 10px;
+          align-items: center;
+        }
+        &-left{
+          width: 50%;
+          display: flex;
+          align-items: center;
+          min-width: 96px;
+        }
+
+        &_row {
+          border-bottom: 1px solid white;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding-bottom: 20px;
+          margin-bottom: 14px;
+        }
+
+        &-title {
+          @include text(700, 14px, 14px, #000);
+          padding-bottom: -4px;
+        }
+
+        &-icon{
+          height: 20px;
+        }
+
+        &-text {
+
+        }
+
+      }
+
+
+    }
+
+
+  }
+}

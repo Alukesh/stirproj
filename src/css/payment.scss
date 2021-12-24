@@ -1,0 +1,160 @@
+.payment{
+  color: white;
+  background-color: #191919;
+  padding: 160px 0 173px;
+  &__{
+    &inner{
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    &btn{
+      width: 94px;
+      height: 44px;
+      border-radius: 64px;
+      border: none;
+      margin-bottom: 31px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      column-gap: 10px;
+      background-color: $green;
+      transition: all .3s;
+      &:hover{
+        background-color: blueviolet;
+        transition: all .3s;
+      }
+      &-text{
+        @include text(700,14px,20px,#2B2A35)
+      }
+    }
+    &title{
+      color: $green;
+      margin-bottom: 8px;
+      transition: all .3s;
+      &:hover{
+        color: #3498db;
+
+        text-shadow: 2px 5px 3px black;
+        transition: all .3s;
+      }
+    }
+    &subtitle{
+      @include text(400,64px,68px,#fff);
+      margin-bottom: 166px;
+    }
+    &cardbox{
+      margin-bottom: 116px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      width: 100%;
+      overflow: hidden;
+    }
+    &card{
+      max-width: 50%;
+      width: 587px;
+      height: 633px;
+      background-color: #1D1D1D;
+      padding: 48px 48px 0;
+      margin: 0 auto;
+      border-radius: 16px;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      &-title{
+        color: $green;
+        margin-bottom: 11px;
+      }
+      &-text{
+        width: 100%;
+        @include text(400,11px,24px,#fff);
+        margin-bottom: 87px;
+      }
+      &-img{
+        max-width: 90%;
+        width: 322px;
+        align-self: center;
+        position: absolute;
+        transition: .3s;
+
+        &:hover{
+          transform: scale(1.1) translateY(-5%);
+          transition: .3s;
+
+        }
+
+        &-display{
+          bottom: 0;
+        }
+        &-autopilot{
+          bottom: 48px;
+        }
+        &-chat{
+          bottom: 150px;
+        }
+      }
+    }
+    &bottom{
+      display: flex;
+      width: 100%;
+    }
+    &left, &right{
+      padding: 0 48px;
+      display: flex;
+      width: 50%;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+    }
+    &left{
+      &-title{
+        margin-bottom: 30px;
+        @include text(400,40px,48px,#fff);
+        max-width: 300px;
+      }
+      &-btn{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: transparent;
+        border: none;
+        width: 220px;
+        transition: all .5s;
+
+        &-text{
+          @include text(400,20px,28px,$green);
+          line-height: 28px;
+          transition: all .5s;
+          &:hover{
+            font-size: 23px;
+          }
+        }
+      }
+    }
+    &right{
+      @include text(400,24px,36px,#fff);
+      display: flex;
+      row-gap: 23px;
+
+      &-title{
+      }
+      &-list{
+        display: flex;
+        flex-direction: column;
+        row-gap: 11px;
+      }
+    }
+    &list-link{
+      color: white;
+        transition: .5s;
+      &:hover{
+        color: blueviolet;
+        text-shadow: 1px 5px 2px black;
+          transition: .5s;
+      }
+    }
+
+  }
+}

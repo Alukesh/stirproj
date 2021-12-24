@@ -1,0 +1,17 @@
+.header{
+  &__inner{
+    padding-top: 14px;
+    margin-bottom: 126px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &-link{
+      @include text(400, 14px,20px,#222);
+        transition: .2s;
+      &:hover{
+        color: red;
+          transition: .2s;
+      }
+    }
+  }
+}
