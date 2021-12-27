@@ -1,0 +1,114 @@
+.footer{
+  padding: 82px 0 80px;
+  background-color: #7352FF;
+  color: white;
+  ::-webkit-input-placeholder { /* WebKit browsers */
+    color:    white;
+  }
+  :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    white;
+  }
+  ::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    white;
+  }
+  :-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    white;
+  }
+  &__{
+
+    &inner{
+      display: flex;
+      flex-direction: column;
+    }
+
+    &top{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-bottom: 100px;
+      &-subscribe{
+        position: relative;
+      }
+      &-label{
+        display: flex;
+        flex-direction: column;
+      }
+      &-btn{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+      }
+      &-input{
+        height: 49px;
+        max-width: 360px;
+        width: 70vw;
+        padding-left: 22px;
+        cursor: pointer;
+        background-color: transparent;
+        border: 1px solid #FFFFFF;
+        border-radius: 13px;
+        outline: none;
+        color: white;
+        @include text(400,13px,27px,#fff);
+        transition: .3s;
+        &:hover{
+          border: 1px solid #6EE4B5;
+          transition: .3s;
+        }
+      }
+      &-text{
+        @include text(400,24px,36p,#fff);
+        margin-bottom: 15px;
+      }
+      &-logo{
+        height: 75px;
+        width: 104px;
+        padding-bottom: 29px;
+      }
+      &-btn{
+        @include text(400,13px,28px,#fff);
+        width: 20%;
+        height: 49px;
+        background-color: transparent;
+        border: none;
+      }
+    }
+
+    &bot{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 60px;
+      justify-content: space-between;
+      &-terms{
+       
+        display: flex;
+        column-gap: 22px;
+        &_text{
+          @include text(400,14px,22px,rgba(255, 255, 255, 0.5));
+        }
+      }
+      &-contact{
+        display: flex;
+        gap: 20px;
+        &_line{
+          display: flex;
+          column-gap: 4px;
+        }
+        &_link{
+          color: white;
+        }
+        &_icon{
+          height: 21px;
+        }
+        &-text{
+          @include text(400,14px,23px,rgba(255, 255, 255, 0.5));
+        }
+      }
+    }
+
+
+
+
+
+  }
+}
