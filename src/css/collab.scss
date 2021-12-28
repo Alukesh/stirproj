@@ -22,14 +22,25 @@
       justify-content: center;
       column-gap: 10px;
       background-color: #000;
+      transition: 1s;
       &-text {
         @include text(700, 14px, 20px, #fff);
+      }
+      &:hover{
+        background-color: #9f01ea;
+        text-shadow: -1px 4px 3px black;
+        transition: .1s;
       }
     }
 
     &title{
-      color: $green;
+      color:$green;
       margin-bottom: 8px;
+      transition: .3s;
+      &:hover{
+        text-shadow:0 0 3px yellow;
+        transition: .3s;
+      }
     }
     &subtitle{
       @include text(700,64px,68px,#fff);
@@ -41,6 +52,12 @@
     &text{
       color: #ffffff90;
       margin-bottom: 603px;
+      z-index: 3;
+      transition: .3s;
+      &:hover{
+        color: white;
+        transition: .3s;
+      }
     }
     &display{
       position: absolute;

@@ -66,10 +66,9 @@
         flex-direction: column;
         row-gap: 10px;
         img{width: 28px;
-          transition: all .3s;
+          transition: all .5s;
           &:hover{
             transform: scale(1.2);
-            border: 4px solid white;
             border-radius: 5px;
           }
         }
@@ -102,7 +101,7 @@
     width: 90%;
     max-width: 1039px;
     position: absolute;
-    bottom: -119px;
+    bottom: -129px;
     z-index: 5;
     transition: 5s;
   }

@@ -72,6 +72,10 @@
         @include text(400,11px,24px,#fff);
         margin-bottom: 87px;
       }
+      a{
+        display: flex;
+        justify-content: center;
+      }
       &-img{
         max-width: 90%;
         width: 322px;

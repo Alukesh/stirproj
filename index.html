@@ -6,10 +6,16 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="./src/libs/lightgallary/lightgallery.css">
+    <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
+    />
     <link
             rel="stylesheet"
             href="https://unpkg.com/swiper/swiper-bundle.min.css"
     />
+    <link rel="stylesheet" href="./src/libs/fontAwesome/all.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./src/css/style.css">
     <script src="https://kit.fontawesome.com/a78707a074.js" crossorigin="anonymous"></script>
@@ -33,12 +39,13 @@
     <section class="first-screen">
         <div class="container">
             <h2 class="first-screen__title big-title">Where creators run their <br> business.</h2>
-            <p class="first-screen__text minor-text">Meet Stir. The financial studio for collaborating, splitting revenue, <br>
+            <p class="first-screen__text minor-text">Meet Stir. The financial studio for collaborating, splitting
+                revenue, <br>
                 money management and metrics—all in one place</p>
             <form class="first-screen__label-form">
                 <label class="first-screen__label">
                     <input class="first-screen__label-input" type="email" placeholder="Enter your email">
-                    <button class="first-screen__label-btn" type="submit">Get started</button>
+                    <button class="first-screen__label-btn submit" type="submit">Get started</button>
                 </label>
             </form>
 
@@ -48,18 +55,21 @@
     <section class="chart">
         <div class="container">
             <div class="chart__carousel swiper MySwiper">
-                <div class="swiper-wrapper">
+                <div id="lightgallery"  class="swiper-wrapper">
 
-                    <div class="swiper-slide">
+                    <div class="swiper-slide ">
                         <div class="chart__carousel-card">
-                            <img src="./src/img/2chart/2card.png" alt="man2">
+                            <a href="./src/img/2chart/2card.png">
+                                <img src="./src/img/2chart/2card.png" alt="women1">
+                            </a>
                             <div class="chart__carousel-card_info chart__carousel-card_info2">
                                 <p class="chart__carousel-card_name">Airrack</p>
                                 <p class="chart__carousel-card_platform">Youtuber</p>
                             </div>
                             <div class="chart__carousel-card_platicon chart__carousel-card_platicon2">
-                                <a  href="https://www.youtube.com/user/D0MICS"  target="_blank">
-                                    <img class="chart__carousel-card_platicon_yout" src="./src/img/icons/youtube.png" alt="youtube">
+                                <a href="https://www.youtube.com/user/D0MICS" target="_blank">
+                                    <img class="chart__carousel-card_platicon_yout" src="./src/img/icons/youtube.png"
+                                         alt="youtube">
                                 </a>
                             </div>
                         </div>
@@ -67,17 +77,21 @@
 
                     <div class="swiper-slide">
                         <div class="chart__carousel-card">
-                            <img src="./src/img/2chart/1card.png" alt="women1">
+                            <a href="./src/img/2chart/1card.png">
+                                <img src="./src/img/2chart/1card.png" alt="women1">
+                            </a>
                             <div class="chart__carousel-card_info chart__carousel-card_info2">
                                 <p class="chart__carousel-card_name">Anna</p>
                                 <p class="chart__carousel-card_platform">Podcaster</p>
                             </div>
                             <div class="chart__carousel-card_platicon chart__carousel-card_platicon2">
-                                <a  href="https://www.youtube.com/user/D0MICS"  target="_blank">
-                                    <img class="chart__carousel-card_platicon_yout" src="./src/img/icons/youtube.png" alt="youtube">
+                                <a href="https://www.youtube.com/user/D0MICS" target="_blank">
+                                    <img class="chart__carousel-card_platicon_yout" src="./src/img/icons/youtube.png"
+                                         alt="youtube">
                                 </a>
-                                <a  href="https://www.instagram.com/user/Li"  target="_blank">
-                                    <img class="chart__carousel-card_platicon_inst" src="./src/img/icons/instagram.png" alt="instagram">
+                                <a href="https://www.instagram.com/user/Li" target="_blank">
+                                    <img class="chart__carousel-card_platicon_inst" src="./src/img/icons/instagram.png"
+                                         alt="instagram">
                                 </a>
                             </div>
                         </div>
@@ -91,14 +105,17 @@
                                 <p class="chart__carousel-card_platform">Creator</p>
                             </div>
                             <div class="chart__carousel-card_platicon chart__carousel-card_platicon3">
-                                <a  href="https://www.youtube.com/user/D0MICS"  target="_blank">
-                                    <img class="chart__carousel-card_platicon_yout" src="./src/img/icons/youtube.png" alt="youtube">
+                                <a href="https://www.youtube.com/user/D0MICS" target="_blank">
+                                    <img class="chart__carousel-card_platicon_yout" src="./src/img/icons/youtube.png"
+                                         alt="youtube">
                                 </a>
-                                <a  href="https://www.instagram.com/user/Li"  target="_blank">
-                                    <img class="chart__carousel-card_platicon_inst" src="./src/img/icons/instagram.png" alt="instagram">
+                                <a href="https://www.instagram.com/user/Li" target="_blank">
+                                    <img class="chart__carousel-card_platicon_inst" src="./src/img/icons/instagram.png"
+                                         alt="instagram">
                                 </a>
-                                <a  href="https://www.twitter.com"  target="_blank">
-                                    <img class="chart__carousel-card_platicon_twitt" src="./src/img/icons/twitter.png" alt="twitter">
+                                <a href="https://www.twitter.com" target="_blank">
+                                    <img class="chart__carousel-card_platicon_twitt" src="./src/img/icons/twitter.png"
+                                         alt="twitter">
                                 </a>
                             </div>
                         </div>
@@ -112,11 +129,13 @@
                                 <p class="chart__carousel-card_platform">Podcaster</p>
                             </div>
                             <div class="chart__carousel-card_platicon chart__carousel-card_platicon2">
-                                <a  href="https://www.youtube.com/user/D0MICS"  target="_blank">
-                                    <img class="chart__carousel-card_platicon_yout" src="./src/img/icons/youtube.png" alt="youtube">
+                                <a href="https://www.youtube.com/user/D0MICS" target="_blank">
+                                    <img class="chart__carousel-card_platicon_yout" src="./src/img/icons/youtube.png"
+                                         alt="youtube">
                                 </a>
-                                <a  href="https://www.instagram.com/user/Li"  target="_blank">
-                                    <img class="chart__carousel-card_platicon_inst" src="./src/img/icons/instagram.png" alt="instagram">
+                                <a href="https://www.instagram.com/user/Li" target="_blank">
+                                    <img class="chart__carousel-card_platicon_inst" src="./src/img/icons/instagram.png"
+                                         alt="instagram">
                                 </a>
                             </div>
                         </div>
@@ -130,11 +149,13 @@
                                 <p class="chart__carousel-card_platform">Podcaster</p>
                             </div>
                             <div class="chart__carousel-card_platicon chart__carousel-card_platicon2">
-                                <a  href="https://www.youtube.com/user/D0MICS"  target="_blank">
-                                    <img class="chart__carousel-card_platicon_yout" src="./src/img/icons/youtube.png" alt="youtube">
+                                <a href="https://www.youtube.com/user/D0MICS" target="_blank">
+                                    <img class="chart__carousel-card_platicon_yout" src="./src/img/icons/youtube.png"
+                                         alt="youtube">
                                 </a>
-                                <a  href="https://www.instagram.com/user/Li"  target="_blank">
-                                    <img class="chart__carousel-card_platicon_inst" src="./src/img/icons/instagram.png" alt="instagram">
+                                <a href="https://www.instagram.com/user/Li" target="_blank">
+                                    <img class="chart__carousel-card_platicon_inst" src="./src/img/icons/instagram.png"
+                                         alt="instagram">
                                 </a>
                             </div>
                         </div>
@@ -148,8 +169,9 @@
                                 <p class="chart__carousel-card_platform">Youtuber</p>
                             </div>
                             <div class="chart__carousel-card_platicon chart__carousel-card_platicon2">
-                                <a  href="https://www.youtube.com/user/D0MICS"  target="_blank">
-                                    <img class="chart__carousel-card_platicon_yout" src="./src/img/icons/youtube.png" alt="youtube">
+                                <a href="https://www.youtube.com/user/D0MICS" target="_blank">
+                                    <img class="chart__carousel-card_platicon_yout" src="./src/img/icons/youtube.png"
+                                         alt="youtube">
                                 </a>
                             </div>
                         </div>
@@ -163,11 +185,13 @@
                                 <p class="chart__carousel-card_platform">Patreon CEO</p>
                             </div>
                             <div class="chart__carousel-card_platicon chart__carousel-card_platicon2">
-                                <a  href="https://www.youtube.com/user/D0MICS"  target="_blank">
-                                    <img class="chart__carousel-card_platicon_yout" src="./src/img/icons/youtube.png" alt="youtube">
+                                <a href="https://www.youtube.com/user/D0MICS" target="_blank">
+                                    <img class="chart__carousel-card_platicon_yout" src="./src/img/icons/youtube.png"
+                                         alt="youtube">
                                 </a>
-                                <a  href="https://www.patreon.com"  target="_blank">
-                                    <img class="chart__carousel-card_platicon_inst" src="./src/img/icons/patreon.png" alt="patreon">
+                                <a href="https://www.patreon.com" target="_blank">
+                                    <img class="chart__carousel-card_platicon_inst" src="./src/img/icons/patreon.png"
+                                         alt="patreon">
                                 </a>
                             </div>
                         </div>
@@ -176,39 +200,52 @@
                 </div>
             </div>
         </div>
-        <img data-aos="zoom-in" data-aos-once="false" data-aos-duration="1300" class="chart__desk" src="./src/img/2chart/desk2.png" alt="chart desk">
+        <img data-aos="zoom-in" data-aos-once="false" data-aos-duration="1300" class="chart__desk"
+             src="./src/img/2chart/desk2.png" alt="chart desk">
     </section>
 
     <section class="trusted">
         <div class="container">
             <h2 class="trusted__title minor__subtitle">Trusted by leaders of the <br> creative community</h2>
             <div class="trusted__slider">
-                <div class="trusted__slider-item"><img class="trusted__slider-img" src="./src/img/3trusted/man1.png" alt="">
+                <div class="trusted__slider-item"><img class="trusted__slider-img" src="./src/img/3trusted/man1.png"
+                                                       alt="">
                 </div>
-                <div class="trusted__slider-item"><img class="trusted__slider-img" src="./src/img/3trusted/01.jpg" alt="">
+                <div class="trusted__slider-item"><img class="trusted__slider-img" src="./src/img/3trusted/01.jpg"
+                                                       alt="">
                 </div>
-                <div class="trusted__slider-item"><img class="trusted__slider-img" src="./src/img/3trusted/03.jpg" alt="">
+                <div class="trusted__slider-item"><img class="trusted__slider-img" src="./src/img/3trusted/03.jpg"
+                                                       alt="">
                 </div>
-                <div class="trusted__slider-item"><img class="trusted__slider-img" src="./src/img/3trusted/04.jpg" alt="">
+                <div class="trusted__slider-item"><img class="trusted__slider-img" src="./src/img/3trusted/04.jpg"
+                                                       alt="">
                 </div>
-                <div class="trusted__slider-item"><img class="trusted__slider-img" src="./src/img/3trusted/05.jpg" alt="">
+                <div class="trusted__slider-item"><img class="trusted__slider-img" src="./src/img/3trusted/05.jpg"
+                                                       alt="">
                 </div>
-                <div class="trusted__slider-item"><img class="trusted__slider-img" src="./src/img/3trusted/02.jpg" alt="">
+                <div class="trusted__slider-item"><img class="trusted__slider-img" src="./src/img/3trusted/02.jpg"
+                                                       alt="">
                 </div>
             </div>
             <div class="trusted__for">
-                <p class=" trusted__for-text subtitle-change">Neistat has stated that he sees his vlogs more as a forum as opposed to a daily journal. <br> On January
+                <p class=" trusted__for-text subtitle-change">Neistat has stated that he sees his vlogs more as a forum
+                    as opposed to a daily journal. <br> On January
                     19, 2016, Neistat posted his 300th vlog</p>
-                <p class="subtitle-change trusted__for-text">Panganiban generally posts story-time animations <br> in which he tells a story about his life, an aspect
+                <p class="subtitle-change trusted__for-text">Panganiban generally posts story-time animations <br> in
+                    which he tells a story about his life, an aspect
                     of it, or his thoughts. As of January 2020, Panganiban's YouTube channel has over 7 million
                     subscribers and 1 billion views. </p>
-                <p class="subtitle-change trusted__for-text">His videos have been featured on multiple websites, including NewNowNext,[ the Malay Mail Online, and CBS
+                <p class="subtitle-change trusted__for-text">His videos have been featured on multiple websites,
+                    including NewNowNext,[ the Malay Mail Online, and CBS
                     News' website. On January 19, 2016, Neistat posted his 300th vlog</p>
-                <p class="subtitle-change trusted__for-text">Neistat has stated that he sees his vlogs more as a forum as opposed to a daily journal.On January 19,
+                <p class="subtitle-change trusted__for-text">Neistat has stated that he sees his vlogs more as a forum
+                    as opposed to a daily journal.On January 19,
                     2016, Neistat posted his 300th vlog</p>
-                <p class="subtitle-change trusted__for-text">Dud launched a YouTube channel named vDud, where he interviews Russian celebrities.
+                <p class="subtitle-change trusted__for-text">Dud launched a YouTube channel named vDud, where he
+                    interviews Russian celebrities.
                     2017 – Winner of GQ Russia's Person of the Year award in the Face From the Screen category.</p>
-                <p class="subtitle-change trusted__for-text">PATREON CEO JACK CONTE ON WHY CREATORS CAN’T DEPEND ON PLATFORMS</p>
+                <p class="subtitle-change trusted__for-text">PATREON CEO JACK CONTE ON WHY CREATORS CAN’T DEPEND ON
+                    PLATFORMS</p>
             </div>
             <a href="#" class="trusted__link">Featured in</a>
             <div class="trusted__logos">
@@ -239,9 +276,9 @@
                 <h3 class="organized__title  minor-title">Your entire business at a glance</h3>
                 <p class="organized__subtitle big-title">Stay organized. Without any extra work.</p>
                 <div class="organized__advance">
-                    <p data-aos="zoom-out"  class="organized__advance-text">Spreadsheets</p>
-                    <p data-aos="zoom-out"  class="organized__advance-text">Notes App</p>
-                    <p data-aos="zoom-out"  class="organized__advance-text">Quickbooks</p>
+                    <p data-aos="zoom-out" class="organized__advance-text">Spreadsheets</p>
+                    <p data-aos="zoom-out" class="organized__advance-text">Notes App</p>
+                    <p data-aos="zoom-out" class="organized__advance-text">Quickbooks</p>
                 </div>
 
 
@@ -335,7 +372,8 @@
 
                 <div data-aos="zoom-in" data-aos-once="true" data-aos-duration="600" class="organized__add-platforms">
                     <div class="organized__add-platforms-info">
-                        <h2 class="organized__add-platforms-info-title big-title">Works with all <br>the ways you <br>make money
+                        <h2 class="organized__add-platforms-info-title big-title">Works with all <br>the ways you <br>make
+                            money
                         </h2>
                         <p class="organized__add-platforms-info-text">Missing one you need? We’ll add it.</p>
                     </div>
@@ -344,7 +382,8 @@
                             <a href="https://www.youtube.com" target="_blank" class="organized__add-platforms-link">
                                 <img src="./src/img/icons/youtube.png" alt="icon" class="organized__add-platforms-icon">
                             </a>
-                            <a href="https://www.patreon.com/ru-RU" target="_blank" class="organized__add-platforms-link">
+                            <a href="https://www.patreon.com/ru-RU" target="_blank"
+                               class="organized__add-platforms-link">
                                 <img src="./src/img/icons/patreon.png" alt="icon" class="organized__add-platforms-icon">
                             </a>
                             <a href="https://www.shopify.com/" target="_blank" class="organized__add-platforms-link">
@@ -403,32 +442,40 @@
                         <h3 class=" minor-title  payment__card-title">Never pay a fee again</h3>
                         <p class="payment__card-text">Send and receive for free. Keep the 2.9% and reinvest it back into
                             your business.</p>
-                        <img src="./src/img/5payment/noFee.png" alt="img"
-                             class="payment__card-img payment__card-img-display">
+                        <a data-fancybox="gallery" data-src="./src/img/5payment/noFee.png">
+                            <img src="./src/img/5payment/noFee.png" alt="img"
+                                 class="payment__card-img payment__card-img-display">
+                        </a>
                     </div>
 
                     <div data-aos="fade-up-left" data-aos-once="false" data-aos-duration="1200" class="payment__card">
                         <h3 class=" minor-title  payment__card-title">Put your 1099’s on autopilot</h3>
                         <p class="payment__card-text">We’ll automate your paperwork so tax time is simple, like it
                             should be.</p>
-                        <img src="./src/img/5payment/autopilot.png" alt="img"
-                             class="payment__card-img payment__card-img-autopilot">
+                        <a data-fancybox="gallery" data-src="./src/img/5payment/autopilot.png">
+                            <img src="./src/img/5payment/autopilot.png" alt="img"
+                                 class="payment__card-img payment__card-img-autopilot">
+                        </a>
                     </div>
 
                     <div data-aos="fade-up" data-aos-once="false" data-aos-duration="1200" class="payment__card">
                         <h3 class=" minor-title  payment__card-title">Bank-to-bank in literally seconds</h3>
                         <p class="payment__card-text">Stir deposits money instantly into your accounts. Never wait 3-5
                             business days again.</p>
-                        <img src="./src/img/5payment/bankChat.png" alt="img"
-                             class="payment__card-img payment__card-img-chat">
+                        <a data-fancybox="gallery" data-src="./src/img/5payment/bankChat.png">
+                            <img src="./src/img/5payment/bankChat.png" alt="img"
+                                 class="payment__card-img payment__card-img-chat">
+                        </a>
                     </div>
 
                     <div data-aos="fade-up" data-aos-once="false" data-aos-duration="1200" class="payment__card">
                         <h3 class=" minor-title  payment__card-title">Wherever you do business</h3>
                         <p class="payment__card-text">iMessage, Instagram, or even Discord - Pay meets you wherever you
                             need it.</p>
-                        <img src="./src/img/5payment/business.png" alt="img"
-                             class="payment__card-img payment__card-img-display">
+                        <a data-fancybox="gallery" data-src="./src/img/5payment/business.png">
+                            <img src="./src/img/5payment/business.png" alt="img"
+                                 class="payment__card-img payment__card-img-display">
+                        </a>
                     </div>
 
                 </div>
@@ -479,7 +526,8 @@
                 </button>
                 <h3 class="split__title minor-title">If you want to go far, go together</h3>
                 <p class="split__subtitle big-title">Get creative with others in <br> just a Split.</p>
-                <p class="split__text subtitle-change">Split the revenue on a video, a line of merch, or that latest and greatest
+                <p class="split__text subtitle-change">Split the revenue on a video, a line of merch, or that latest and
+                    greatest
                     podcast. The possibilities are endless when you share upside together.</p>
                 <div class="split__platforms" data-aos="zoom-in-right" data-aos-duration="900">
                     <h4 class="split__platforms-title">Supported platforms</h4>
@@ -531,7 +579,8 @@
                 </div>
 
 
-                <img class="split__display" data-aos="fade-down" data-aos-once="true" data-aos-duration="1300" src="./src/img/7split/displaybg.png" alt="image" >
+                <img class="split__display" data-aos="fade-down" data-aos-once="true" data-aos-duration="1300"
+                     src="./src/img/7split/displaybg.png" alt="image">
 
             </div>
         </div>
@@ -548,7 +597,7 @@
                 <p class="collab__subtitle big-title">Collectives: The future of collab culture</p>
                 <p class="collab__text minor-title">Coming later this year</p>
             </div>
-            <img  src="./src/img/6collab/bg.png" alt="image" class="collab__display">
+            <img src="./src/img/6collab/bg.png" alt="image" class="collab__display">
             <!--            СДЕЛАТЬ БЕЗ КОНТЕЙНЕРА И ДИВАМИ БЕЗ ПОЗИШН-->
 
         </div>
@@ -557,7 +606,8 @@
     <section class="setUp">
         <div class="container">
             <div class="setUp__inner">
-                <h2 class="setUp__title"  data-aos="zoom-in" data-aos-once="true" data-aos-duration="1200">We've got something for everyone: for maximum effectiveness, set up your entire
+                <h2 class="setUp__title" data-aos="zoom-in" data-aos-once="true" data-aos-duration="1200">We've got
+                    something for everyone: for maximum effectiveness, set up your entire
                     team on Stir.</h2>
                 <div class="swiper mySwiper setUp__carousel">
                     <div class="swiper-wrapper">
@@ -568,14 +618,19 @@
                             </div>
                             <img class="setUp__card-image" src="./src/img/8setUp/Eric.png" alt="Eric Decker">
                             <div class="setUp__card-info">
-                                <button class="setUp__card-btn">
-                                    <span class="setUp__card-btn-text">Airrack | Case Study</span>
-                                </button>
-                                <p class="setUp__card-text subtitle-change">"Stir is the secret weapon of the creator world. I have
-                                    multiple
-                                    12+ person splits running on Stir right now. It's a game-changer for creators who
-                                    strive
-                                    to stay a cut above the rest.”</p>
+                                <div class="setUp__card-top">
+                                    <button class="setUp__card-btn">
+                                        <span class="setUp__card-btn-text">Airrack | Case Study</span>
+                                    </button>
+                                    <p class="setUp__card-text subtitle-change">"Stir is the secret weapon of the
+                                        creator world. I have
+                                        multiple
+                                        12+ person splits running on Stir right now. It's a game-changer for creators
+                                        who
+                                        strive
+                                        to stay a cut above the rest.”</p>
+                                </div>
+
                                 <div class="setUp__card-channels">
                                     <div class="setUp__card-channels_row">
                                         <div class="setUp__card-channels-right">
@@ -620,14 +675,18 @@
                             </div>
                             <img class="setUp__card-image" src="./src/img/8setUp/mack.jpeg" alt="Eric Decker">
                             <div class="setUp__card-info">
-                                <button class="setUp__card-btn">
-                                    <span class="setUp__card-btn-text">Airrack | Case Study</span>
-                                </button>
-                                <p class="setUp__card-text subtitle-change">"Stir is the secret weapon of the creator world. I have
-                                    multiple
-                                    12+ person splits running on Stir right now. It's a game-changer for creators who
-                                    strive
-                                    to stay a cut above the rest.”</p>
+                                <div class="setUp__card-top">
+                                    <button class="setUp__card-btn">
+                                        <span class="setUp__card-btn-text">Airrack | Case Study</span>
+                                    </button>
+                                    <p class="setUp__card-text subtitle-change">"Stir is the secret weapon of the
+                                        creator world. I have
+                                        multiple
+                                        12+ person splits running on Stir right now. It's a game-changer for creators
+                                        who
+                                        strive
+                                        to stay a cut above the rest.”</p>
+                                </div>
                                 <div class="setUp__card-channels">
                                     <div class="setUp__card-channels_row">
                                         <div class="setUp__card-channels-right">
@@ -664,7 +723,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="swiper-slide setUp__card setUp__card2">
+                        <div class="swiper-slide setUp__card setUp__card3">
 
                             <div class="setUp__card-starter">
                                 <p class="setUp__card-starter_num">03</p>
@@ -674,14 +733,90 @@
                             <img class="setUp__card-image" src="./src/img/8setUp/mack.jpeg" alt="Eric Decker">
                             <div class="setUp__card-info">
 
-                                <button class="setUp__card-btn">
-                                    <span class="setUp__card-btn-text">Airrack | Case Study</span>
-                                </button>
-                                <p class="setUp__card-text subtitle-change">"Stir is the secret weapon of the creator world. I have
-                                    multiple
-                                    12+ person splits running on Stir right now. It's a game-changer for creators who
-                                    strive
-                                    to stay a cut above the rest.”</p>
+                                <div class="setUp__card-top">
+                                    <button class="setUp__card-btn">
+                                        <span class="setUp__card-btn-text">Airrack | Case Study</span>
+                                    </button>
+                                    <p class="setUp__card-text subtitle-change">"Stir is the secret weapon of the
+                                        creator world. I have
+                                        multiple
+                                        12+ person splits running on Stir right now. It's a game-changer for creators
+                                        who
+                                        strive
+                                        to stay a cut above the rest.”</p>
+                                </div>
+                                <div class="setUp__card-channels">
+                                    <div class="setUp__card-channels_row">
+                                        <div class="setUp__card-channels-right">
+                                            <p class="setUp__card-channels-title">Channels</p>
+                                        </div>
+                                        <div class="setUp__card-channels-left">
+                                            <p class="setUp__card-channels-title">Activity</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="setUp__card-channels_row">
+                                        <div class="setUp__card-channels-right">
+                                            <img src="./src/img/icons/youtube.png" alt="platform"
+                                                 class="setUp__card-channels-icon">
+                                            <p class="setUp__card-channels-text setUp__card-channels-youtube">
+                                                YouTube</p>
+                                        </div>
+                                        <div class="setUp__card-channels-left">
+                                            <p class="setUp__card-channels-text">Splits, Home</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="setUp__card-channels_row">
+                                        <div class="setUp__card-channels-right">
+                                            <img src="./src/img/icons/instagram.png" alt="platform"
+                                                 class="setUp__card-channels-icon">
+                                            <p class="setUp__card-channels-text setUp__card-channels-airrack">
+                                                Instagram</p>
+                                        </div>
+                                        <div class="setUp__card-channels-left">
+                                            <p class="setUp__card-channels-text">Blogs</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="setUp__card-channels_row">
+                                        <div class="setUp__card-channels-right">
+                                            <img src="./src/img/icons/instagram.png" alt="platform"
+                                                 class="setUp__card-channels-icon">
+                                            <p class="setUp__card-channels-text setUp__card-channels-airrack">
+                                                Instagram</p>
+                                        </div>
+                                        <div class="setUp__card-channels-left">
+                                            <p class="setUp__card-channels-text">Blogs</p>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide setUp__card setUp__card4">
+
+                            <div class="setUp__card-starter">
+                                <p class="setUp__card-starter_num">03</p>
+                                <p class="setUp__card-starter_identity">Editor</p>
+                            </div>
+
+                            <img class="setUp__card-image" src="./src/img/8setUp/mack.jpeg" alt="Eric Decker">
+                            <div class="setUp__card-info">
+
+                                <div class="setUp__card-top">
+                                    <button class="setUp__card-btn">
+                                        <span class="setUp__card-btn-text">Airrack | Case Study</span>
+                                    </button>
+                                    <p class="setUp__card-text subtitle-change">"Stir is the secret weapon of the
+                                        creator world. I have
+                                        multiple
+                                        12+ person splits running on Stir right now. It's a game-changer for creators
+                                        who
+                                        strive
+                                        to stay a cut above the rest.”</p>
+                                </div>
                                 <div class="setUp__card-channels">
                                     <div class="setUp__card-channels_row">
                                         <div class="setUp__card-channels-right">
@@ -747,9 +882,15 @@
                 <h3 class="security__title minor-title">Serious about security</h3>
                 <p class="security__subtitle minor__subtitle">Our top priority is keeping your data safe and secure.</p>
                 <ul class="security__list">
-                    <li class="security__list-item minor-text"><img src="./src/img/9security/check.svg" alt="check"> We will never (ever) share your data</li>
-                    <li class="security__list-item minor-text"><img src="./src/img/9security/check.svg" alt="check">Secured by TLS (SSL) 256-bit bank-level encryption</li>
-                    <li class="security__list-item minor-text"><img src="./src/img/9security/check.svg" alt="check">We’re a multi-creator network, not an MCN</li>
+                    <li class="security__list-item minor-text"><img src="./src/img/9security/check.svg" alt="check"> We
+                        will never (ever) share your data
+                    </li>
+                    <li class="security__list-item minor-text"><img src="./src/img/9security/check.svg" alt="check">Secured
+                        by TLS (SSL) 256-bit bank-level encryption
+                    </li>
+                    <li class="security__list-item minor-text"><img src="./src/img/9security/check.svg" alt="check">We’re
+                        a multi-creator network, not an MCN
+                    </li>
                 </ul>
             </div>
         </div>
@@ -761,7 +902,8 @@
                 <h3 class="imagination__title">Less Administration, More Imagination</h3>
                 <p class="imagination__subtitle big-title">Get your business up and <br> running on Stir</p>
                 <div class="imagination__blocks">
-                    <div data-aos="fade-down-right" data-aos-once="false" data-aos-duration="1200" class="imagination__block">
+                    <div data-aos="fade-down-right" data-aos-once="false" data-aos-duration="1200"
+                         class="imagination__block">
                         <div class="imagination__block-inner">
                             <img class="imagination__block-icon" src="./src/img/10imagination/home.png" alt="icon">
                             <h2 class="imagination__block-title subtitle-change">Home</h2>
@@ -769,7 +911,8 @@
                                 easy-to-use place.</p>
                         </div>
                     </div>
-                    <div data-aos="fade-up-right" data-aos-once="false" data-aos-duration="1200" class="imagination__block">
+                    <div data-aos="fade-up-right" data-aos-once="false" data-aos-duration="1200"
+                         class="imagination__block">
                         <div class="imagination__block-inner">
                             <img class="imagination__block-icon" src="./src/img/10imagination/pay.png" alt="icon">
                             <h2 class="imagination__block-title subtitle-change">Pay</h2>
@@ -777,7 +920,8 @@
                                 modern business.</p>
                         </div>
                     </div>
-                    <div data-aos="fade-up-right" data-aos-once="false" data-aos-duration="1200" class="imagination__block">
+                    <div data-aos="fade-up-right" data-aos-once="false" data-aos-duration="1200"
+                         class="imagination__block">
                         <div class="imagination__block-inner">
                             <img class="imagination__block-icon" src="./src/img/10imagination/splited.png" alt="icon">
                             <h2 class="imagination__block-title subtitle-change">Splits</h2>
@@ -785,7 +929,8 @@
                                 better with aligned incentives.</p>
                         </div>
                     </div>
-                    <div data-aos="fade-down-right" data-aos-once="false" data-aos-duration="1200" class="imagination__block">
+                    <div data-aos="fade-down-right" data-aos-once="false" data-aos-duration="1200"
+                         class="imagination__block">
                         <div class="imagination__block-inner">
                             <img class="imagination__block-icon" src="./src/img/10imagination/collective.png"
                                  alt="icon">
@@ -804,31 +949,35 @@
             <div class="creators__inner">
                 <div class="creators__title circle-title">Drops</div>
                 <div class="creators__subtitle big-title">We're creators too</div>
-                <div class="creators__text minor-text">Occasionally, we produce one-off projects that are in pursuit of <br> our
+                <div class="creators__text minor-text">Occasionally, we produce one-off projects that are in pursuit of
+                    <br> our
                     mission of enabling creators to run great businesses, own
                     <br>their content, and build a direct relationship with their audience.
                 </div>
-                <input class="creators__input" type="email" placeholder="Enter your email">
+                <input class="creators__input minor-text" type="email" placeholder="Enter your email">
             </div>
         </div>
-                <div class="creators__cards">
-                    <div data-aos="zoom-in" data-aos-once="true" data-aos-duration="1200" class="creators__card creators__card1">
-                        <div class="creators__card-box">
-                            <p class="creators__card-text big-title">Presubscribe</p>
-                        </div>
-                    </div>
-                    <div data-aos="zoom-in" data-aos-once="true" data-aos-duration="1200" class="creators__card creators__card2">
-                        <div class="creators__card-box">
-                            <p class="creators__card-text big-title">Only <br>Tweets</p>
-                        </div>
-                    </div>
-                    <div data-aos="zoom-in" data-aos-once="true" data-aos-duration="1200" class="creators__card creators__card3">
-                        <div class="creators__card-box">
-                            <p class="creators__card-text big-title">MerchWith</p>
-                        </div>
-                    </div>
-
+        <div class="creators__cards">
+            <div data-aos="zoom-in" data-aos-once="true" data-aos-duration="1200"
+                 class="creators__card creators__card1">
+                <div class="creators__card-box">
+                    <p class="creators__card-text big-title">Presubscribe</p>
                 </div>
+            </div>
+            <div data-aos="zoom-in" data-aos-once="true" data-aos-duration="1200"
+                 class="creators__card creators__card2">
+                <div class="creators__card-box">
+                    <p class="creators__card-text big-title">Only <br>Tweets</p>
+                </div>
+            </div>
+            <div data-aos="zoom-in" data-aos-once="true" data-aos-duration="1200"
+                 class="creators__card creators__card3">
+                <div class="creators__card-box">
+                    <p class="creators__card-text big-title">MerchWith</p>
+                </div>
+            </div>
+
+        </div>
 
     </section>
 
@@ -837,12 +986,44 @@
     <div class="container">
         <div class="footer__inner">
             <div class="footer__top">
-                .footer__
+                <form class="footer__top-subscribe">
+                    <label class="footer__top-label">
+                        <span class="footer__top-text">Cheers to a more <br> imaginative world.</span>
+                        <input class="footer__top-input" type="email" placeholder="Subscribe for updates" required>
+                    </label>
+                    <button class="footer__top-btn submit">ok</button>
+                </form>
+                <img src="src/img/12footer/logo.png" class="footer__top-logo" alt="STIR">
             </div>
-            <div class="footer__bot"></div>
+            <div class="footer__bot">
+                <div class="footer__bot-contact">
+                    <div class="footer__bot-contact_line">
+                        <i class="fab fa-instagram footer__bot-contact_icon"></i>
+                        <p class="footer__bot-contact-text">Instagram</p>
+                    </div>
+                    <div class="footer__bot-contact_line">
+                        <i class="fab fa-twitter footer__bot-contact_icon"></i>
+                        <p class="footer__bot-contact-text">Twitter</p>
+                    </div>
+                    <a class="footer__bot-contact_link" href="tel:556099873">
+                        <div class="footer__bot-contact_line">
+                            <i class="fas fa-phone-volume footer__bot-contact_icon"></i>
+                            <p class="footer__bot-contact-text">0556099873</p>
+                        </div>
+
+                    </a>
+
+                </div>
+                <div class="footer__bot-terms">
+                    <p class="footer__bot-terms_text">Terms</p>
+                    <p class="footer__bot-terms_text">Privacy</p>
+                    <p class="footer__bot-terms_date">© Stir 2021</p>
+                </div>
+            </div>
         </div>
     </div>
 </footer>
+
 
 <div class="overlayframe">
     <div class="overlay"></div>
@@ -859,12 +1040,14 @@
                     <label class="popup__loginform-label">Password</label>
                     <input class="popup__loginform-input" type="password" required>
                 </div>
-                <div class="popup__loginform-forgot"><a class="popup__loginform-link" href="#">Forgot Password?</a></div>
+                <div class="popup__loginform-forgot"><a class="popup__loginform-link" href="#">Forgot Password?</a>
+                </div>
                 <div class="popup__loginform-overbtn">
                     <div class="popup__loginform-overbtn_inner"></div>
-                    <button class="popup__loginform-btn" type="submit">login</button>
+                    <button class="popup__loginform-btn submit" type="submit">login</button>
                 </div>
-                <div class="popup__loginform-signup">Not a member? <a class="popup__loginform-signup_link" href="#">Signup now</a></div>
+                <div class="popup__loginform-signup">Not a member? <a class="popup__loginform-signup_link" href="#">Signup
+                    now</a></div>
             </form>
         </div>
         <div class=" popup__signupform">
@@ -876,30 +1059,42 @@
                 </div>
                 <div class="popup__signupform-data">
                     <label class="popup__signupform-label">Phone</label>
-                    <input class="popup__signupform-input" type="number" required>
+                    <input class="popup__signupform-input" id="tel" type="tel" required>
                 </div>
 
                 <div class="popup__signupform-data">
                     <label class="popup__signupform-label">Password</label>
                     <input class="popup__signupform-input" type="password" required>
                 </div>
-                 <div class="popup__signupform-data">
+                <div class="popup__signupform-data">
                     <label class="popup__signupform-label">Confirm password</label>
                     <input class="popup__signupform-input" type="password" required>
                 </div>
                 <div class="popup__signupform-overbtn">
                     <div class="popup__signupform-overbtn_inner"></div>
-                    <button class="popup__signupform-btn" type="submit">Signup</button>
+                    <button class="popup__signupform-btn" type="submit">Create Account</button>
                 </div>
-<!--                <div class="popup__form-signup">Not a member? <a class="popup__form-signup_link" href="#">Signup now</a></div>-->
+                <!--                <div class="popup__form-signup">Not a member? <a class="popup__form-signup_link" href="#">Signup now</a></div>-->
             </form>
+        </div>
+        <div class="popup__thanks">
+            <img class="popup__thanks-img" src="./src/img/overlay/popuplike.png" alt="icon" >
+            <h2 class="popup__thanks-title">Awesome!</h2>
+            <p class="popup__thanks-text">Now you became a part of our friendly community.</p>
+            <button class="popup__thanks-btn">Join us</button>
         </div>
 
     </div>
 </div>
 
-
 <script src="./src/libs/jquery/jquery-3.6.0.min.js"></script>
+<script src="./src/libs/fontAwesome/all.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+<script src="./src/js/lightgallery.min.js"></script>
+<script src="./src/libs/lightgallary/lg-fullscreen.min.js"></script>
+<script src="./src/libs/lightgallary/lg-thumbnail.min.js"></script>
+<script src="./src/libs/lightgallary/lg-video.min.js"></script>
+<script src="./src/js/jquery.inputmask.js"></script>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>

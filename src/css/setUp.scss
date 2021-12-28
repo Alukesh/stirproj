@@ -25,16 +25,17 @@
     &card {
       width: 60%;
       max-width: 1039px;
+      height: 100vw;
       max-height: 646px;
       display: flex;
       margin: 0 auto;
       padding: 50px 91px 50px 30px;
       border-radius: 8px;
-      &1{
-        background-color: #F7F2E4;
+      &:hover{
+        cursor: grab;
       }
-      &2{
-        background-color: #F6C627;
+      &:active{
+        cursor: grabbing;
       }
 
       &-starter {
@@ -75,9 +76,15 @@
       }
 
       &-text {
-        margin-bottom: 90px;
         @include text(700, 24px, 36px, #000);
-        max-width: 492px
+        width: 50vw;
+        max-width: 382px;
+      }
+      &-info{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
       }
 
       &-channels {
@@ -102,6 +109,9 @@
           align-items: center;
           padding-bottom: 20px;
           margin-bottom: 14px;
+          &:last-child{
+            margin-bottom: 0;
+          }
         }
 
         &-title {
@@ -114,12 +124,24 @@
         }
 
         &-text {
-
+          width: 100%;
         }
-
       }
 
 
+      &1{
+        background-color: #F7F2E4;
+      }
+      &2{
+        background-color: #F6C627;
+      }
+      &3{
+        background-color: cadetblue;
+      }
+      &4{
+        background-color: gray;
+
+      }
     }
 
 

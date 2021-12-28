@@ -5,13 +5,14 @@ $(function () {
             disableOnInteraction: false,
         },
         slidesPerView: 1.2,
-        spaceBetween: 3,
+        spaceBetween: 0,
         centeredSlides: true,
         pagination: {
             el: ".swiper-pagination",
             clickable: true,
         },
     });
+
     $('.trusted__slider').slick({
         centerMode: true,
         centerPadding: '60px',
@@ -61,6 +62,7 @@ $(function () {
 });
 
 
+
 var swiper = new Swiper(".MySwiper", {
     slidesPerView: 1,
 
@@ -84,9 +86,19 @@ var swiper = new Swiper(".MySwiper", {
     }
 });
 
+$(document).ready(function () {
+    $('#lightgallery').lightGallery();
+});
+
+
+
+
 let Burger = document.querySelector('.comingBurger');
 let BurgerList = document.querySelector('.payment__right');
 let arrow = document.querySelector('.fa-angle-down');
+let phone = $('#tel');
+
+phone.inputmask('+\\9\\96 (999)99-99-99')
 
 Burger.addEventListener('click', function () {
     Burger.classList.toggle('active');
@@ -104,16 +116,20 @@ let start = $('.popup__loginform-signup');
 let form = $('.popup__form');
 let signup = $('.popup__signupform');
 let login = $('.popup__loginform');
+let thanks = $('.popup__thanks');
+let submit = $('.submit');
 
 join.on('click', function () {
     overlayframe.fadeIn(500);
     login.fadeIn();
+    thanks.fadeOut(1);
     signup.fadeOut(1);
 
 });
 
 start.on('click', function () {
     login.fadeOut(1);
+    thanks.fadeOut(1);
     signup.fadeIn();
 });
 
@@ -124,6 +140,15 @@ close.on('click', function () {
 overlay.on('click', function () {
     overlayframe.fadeOut();
 });
+
+submit.on('click', function () {
+    overlayframe.fadeIn();
+    login.fadeOut(1);
+    signup.fadeOut(1);
+    thanks.fadeIn();
+
+});
+
 
 
 
